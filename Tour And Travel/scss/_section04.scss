@@ -1,0 +1,45 @@
+.section04 {
+  margin-left: 240px;
+  display: flex;
+  align-items: center;
+  gap: 49px;
+  margin-bottom: 248px;
+  &_content {
+    width: 481px;
+    &_heading {
+      width: 100%;
+      font-family: Playfair Display;
+      font-weight: bold;
+      font-size: 3.6rem;
+      line-height: 5rem;
+      color: #000000;
+      margin-bottom: 20px;
+    }
+    &_text {
+      width: 450px;
+      font-family: Mulish;
+      font-size: 1.7rem;
+      line-height: 3rem;
+      color: #7d7987;
+      margin-bottom: 39px;
+    }
+    &_button {
+      width: 164px;
+      height: 48px;
+      background: #fb8f1d;
+      border-radius: 8px;
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 1.6rem;
+      line-height: 4.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+    }
+  }
+  img {
+    width: 599px;
+    height: 542px;
+  }
+}

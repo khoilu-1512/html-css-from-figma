@@ -1,0 +1,105 @@
+.first {
+  display: flex;
+  .hero {
+    margin-left: 270px;
+    flex: 1;
+    flex-direction: column;
+
+    &_title {
+      margin-bottom: 235px;
+      &_top {
+        font-weight: 500;
+        font-size: 2.6rem;
+        line-height: 3.1rem;
+        letter-spacing: 0.11em;
+        text-transform: uppercase;
+        color: #d1dce5;
+        margin-bottom: 56px;
+      }
+      &_bot {
+        font-weight: bold;
+        font-size: 8.4rem;
+        letter-spacing: -0.045em;
+        margin-bottom: 80px;
+      }
+      &_button {
+        width: 252px;
+        padding: 18px 41px;
+        height: 72px;
+        background: #0e6fff;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 2.5rem;
+        line-height: 3.6rem;
+        letter-spacing: -0.03em;
+        color: #ffffff;
+      }
+    }
+    &_review {
+      width: 612px;
+      display: flex;
+      flex-direction: column;
+      gap: 45px;
+      &_feedback {
+        font-weight: 500;
+        font-size: 4.4rem;
+        line-height: 4.8rem;
+        letter-spacing: -0.03em;
+      }
+      &_user {
+        width: 415px;
+        display: flex;
+        gap: 31px;
+        align-items: center;
+        img {
+          width: 81px;
+          height: 85px;
+        }
+        .review_user {
+          &_name {
+            font-weight: bold;
+            font-size: 3rem;
+            line-height: 3.6rem;
+            letter-spacing: -0.03em;
+          }
+          &_title {
+            font-size: 2.4rem;
+            line-height: 3.1rem;
+            letter-spacing: -0.02em;
+          }
+        }
+      }
+    }
+  }
+  .slider {
+    display: flex;
+    flex-direction: column;
+    &_loader {
+      width: 343px;
+      height: 8px;
+      background: #ffb19d;
+    }
+    &_slick {
+      position: relative;
+      &_slicker {
+        position: absolute;
+        bottom: 31px;
+        left: 33px;
+        display: flex;
+        gap: 20px;
+        svg:hover {
+          cursor: pointer;
+          g {
+            opacity: unset;
+            rect {
+              fill: #0e6fff;
+            }
+            path {
+              fill: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

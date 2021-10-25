@@ -1,0 +1,67 @@
+.header {
+  width: 100%;
+  padding: 40px 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &_nav {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+    &_menu {
+      display: flex;
+      gap: 34px;
+      &_item {
+        display: inline-block;
+        a {
+          font-family: Inter;
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 1.9rem;
+          color: #b8becd;
+          &:hover {
+            color: #202336;
+          }
+        }
+      }
+    }
+
+    &_button {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      justify-content: center;
+      &_login {
+        width: 132px;
+        height: 44px;
+        border: 1px solid #fb8f1d;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background: #ffffff;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 6rem;
+        color: #fb8f1d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      &_register {
+        width: 132px;
+        height: 44px;
+        background: #fb8f1d;
+        border-radius: 8px;
+        border: none;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 6rem;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

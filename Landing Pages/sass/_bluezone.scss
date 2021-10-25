@@ -1,0 +1,76 @@
+.bluezone {
+  position: relative;
+  background: linear-gradient(
+      0deg,
+      #ffffff -45.04%,
+      rgba(255, 255, 255, 0) 102.87%
+    ),
+    #d8f6ff;
+  height: 2242px;
+  &_image {
+    position: absolute;
+    left: 270px;
+    top: -392px;
+    img {
+      width: 440px;
+      height: 518px;
+    }
+  }
+  &_picture {
+    position: absolute;
+    left: 741px;
+    top: -116px;
+    img {
+      width: 910px;
+      height: 518px;
+    }
+  }
+  &_media {
+    position: absolute;
+    left: 270px;
+    top: 522px;
+    display: flex;
+    align-items: center;
+    gap: 103px;
+    .video {
+      position: relative;
+
+      img {
+        width: 675px;
+        height: 675px;
+      }
+      svg {
+        position: absolute;
+        top: 204px;
+        left: 204px;
+      }
+    }
+    .description {
+      &_title {
+        font-weight: bold;
+        font-size: 5.2rem;
+        line-height: 5.7rem;
+        letter-spacing: -0.05em;
+        margin-bottom: 24px;
+      }
+      &_content {
+        font-size: 2.8rem;
+        line-height: 3.4rem;
+        letter-spacing: -0.01em;
+        margin-bottom: 63px;
+      }
+      &_link {
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 2.1rem;
+        line-height: 2.8rem;
+        color: #0e6fff;
+      }
+    }
+    &.reverse {
+      flex-direction: row-reverse;
+      top: 1317px;
+      margin-bottom: 120px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  padding: 34px 41px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    #fff4d4;
+  &_nav {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    .nav-item {
+      a {
+        display: inline-block;
+        color: #d1dce5;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 28px;
+        cursor: pointer;
+      }
+      &.active a {
+        border: 1px solid #ff4242;
+        border-radius: 4px;
+        padding: 8px 15px;
+        color: #0e6fff;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+}

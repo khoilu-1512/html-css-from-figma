@@ -1,0 +1,72 @@
+.carousel {
+  margin-top: 250px;
+  .title {
+    &_concept {
+      font-weight: 500;
+      font-size: 2.3rem;
+      line-height: 2.8rem;
+      text-align: center;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+      margin-bottom: 43px;
+    }
+    &_content {
+      font-weight: bold;
+      font-size: 6.4rem;
+      line-height: 7rem;
+      text-align: center;
+      letter-spacing: -0.05em;
+    }
+  }
+
+  &_slick {
+    display: flex;
+    column-gap: 30px;
+    margin-left: 270px;
+    margin-top: 120px;
+    &_item {
+      width: 440px;
+      padding: 41px 55px;
+      box-shadow: 10px 10px 50px 3px rgba(39, 92, 141, 0.1);
+      border-radius: 12px;
+      margin-bottom: 40px;
+      .item_name {
+        font-weight: 500;
+        font-size: 4.4rem;
+        line-height: 4.8rem;
+        letter-spacing: -0.03em;
+        margin-bottom: 44px;
+      }
+      .item_content {
+        font-size: 2.4rem;
+        line-height: 3.1rem;
+        letter-spacing: -0.02em;
+        margin-bottom: 32px;
+      }
+      .item_link {
+        font-weight: bold;
+        font-size: 2.1rem;
+        line-height: 2.8rem;
+        letter-spacing: -0.01em;
+        color: $opacity-color;
+        &:hover {
+          text-decoration: underline;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+  &_slicker {
+    margin-left: 270px;
+    margin-bottom: 240px;
+    display: flex;
+    gap: 20px;
+    button {
+      background: transparent;
+      color: $opacity-color;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
